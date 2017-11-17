@@ -1,0 +1,20 @@
+PRINT STRING
+
+# include<stdio.h>
+void main()
+{
+char array[100];
+printf("Enter a string\n");
+scanf("%s",array);
+printf("you entered the string %s\n",array);
+}
+
+**********output**************
+
+comp@comp-OptiPlex-7040:~$ gcc bhavana21.c
+comp@comp-OptiPlex-7040:~$ ./a.out
+Enter a string
+c programming
+you entered the string c
+comp@comp-OptiPlex-7040:~$ 
+
